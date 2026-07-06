@@ -145,25 +145,25 @@ export const PROJECTS = [
 
 export const POSTS = [
   {
-    date: "May 20, 2024",
+    date: "May 20, 2026",
     read: "5 min read",
     title: "What I Learned from AZ-900 Certification",
     accent: "from-sky-500 to-blue-700",
   },
   {
-    date: "May 15, 2024",
+    date: "May 15, 2026",
     read: "6 min read",
     title: "Understanding Azure Resource Groups",
     accent: "from-slate-600 to-slate-800",
   },
   {
-    date: "May 10, 2024",
+    date: "May 10, 2026",
     read: "4 min read",
     title: "Azure Blob Storage Explained",
     accent: "from-cyan-600 to-slate-800",
   },
   {
-    date: "May 05, 2024",
+    date: "May 05, 2026",
     read: "6 min read",
     title: "RBAC in Azure: A Beginner's Guide",
     accent: "from-blue-600 to-indigo-900",

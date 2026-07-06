@@ -137,7 +137,7 @@ export default function Footer({ scrollTo }) {
             ? "border-white/5 text-slate-500"
             : "border-slate-200 text-slate-400"
         }`}>
-        © 2026 John Doe. All rights reserved.
+        © 2026 MFTS. All rights reserved.
       </div>
     </footer>
   );
