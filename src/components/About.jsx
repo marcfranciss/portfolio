@@ -1,6 +1,7 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
+import me from "./me.png";
 
 export default function About() {
   const { dark } = useTheme();
@@ -15,7 +16,7 @@ export default function About() {
       <div className='flex flex-col sm:flex-row gap-6 items-start'>
         <div className='group w-32 h-auto rounded-xl overflow-hidden shrink-0 bg-gradient-to-br from-slate-700 to-slate-900 flex items-center justify-center text-3xl font-bold text-white'>
           <img
-            src='./src/components/me.png'
+            src={me}
             alt='About Me'
             className='w-32 h-auto object-contain mx-auto transition-all duration-300 drop-shadow-md group-hover:drop-shadow-xl group-hover:scale-105'
           />

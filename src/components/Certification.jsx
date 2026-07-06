@@ -1,6 +1,7 @@
 import React from "react";
 import { Calendar, BadgeCheck, ExternalLink } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
+import cert from "./azure-fundamentals.png";
 
 export default function Certification() {
   const { dark } = useTheme();
@@ -16,7 +17,7 @@ export default function Certification() {
       <div className='flex flex-col sm:flex-row gap-6 items-start'>
         <div className='group w-48 h-48 shrink-0 rounded-lg  flex flex-col items-center text-white p-2 text-center'>
           <img
-            src='./src/components/azure-fundamentals.png'
+            src={cert}
             alt='Microsoft Certified Azure Badge'
             className='w-32 h-32 object-contain mx-auto transition-all duration-300 drop-shadow-md group-hover:drop-shadow-xl group-hover:scale-105'
           />
