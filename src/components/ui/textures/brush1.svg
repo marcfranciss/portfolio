@@ -1,0 +1,62 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 800 300"
+    fill="none"
+>
+    <g
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    >
+        <!-- Main sweeping stroke -->
+        <path
+            d="M40 170
+               C140 110 250 90 380 110
+               C520 132 650 105 760 70"
+            stroke-width="8"
+            opacity="0.08"
+        />
+
+        <path
+            d="M45 173
+               C145 114 252 93 382 113
+               C520 134 648 108 758 73"
+            stroke-width="3"
+            opacity="0.16"
+        />
+
+        <!-- Upper broken stroke -->
+        <path
+            d="M140 95
+               C220 75 310 78 410 92
+               C520 108 600 92 670 72"
+            stroke-width="5"
+            opacity="0.05"
+        />
+
+        <!-- Lower flowing stroke -->
+        <path
+            d="M120 215
+               C240 188 360 188 480 204
+               C560 214 640 206 720 185"
+            stroke-width="6"
+            opacity="0.06"
+        />
+
+        <!-- Small accent -->
+        <path
+            d="M260 130
+               C285 118 315 118 340 130"
+            stroke-width="3"
+            opacity="0.10"
+        />
+
+        <!-- Small accent -->
+        <path
+            d="M520 155
+               C550 145 585 148 610 162"
+            stroke-width="3"
+            opacity="0.08"
+        />
+    </g>
+</svg>
